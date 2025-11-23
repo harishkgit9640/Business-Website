@@ -16,7 +16,7 @@
         <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-5 text-white">
             Antikythera Engineering Services
         </h3>
-        <p class="text-white leading-relaxed">
+        <p class="text-[#c3cbd9] leading-relaxed">
             Antikythera Engineering Services partners with companies at the forefront of technology
             and innovation — providing leadership, technical expertise, and strategic insight to help
             them scale intelligently, execute with precision, and lead with purpose.
@@ -34,7 +34,7 @@
                 height="35">
         </div>
 
-        <div class="text-white text-justify space-y-2">
+        <div class="text-[#c3cbd9] text-justify space-y-2">
 
             <p>
                 We provide interim and strategic leadership across technology-driven industries,
@@ -49,7 +49,7 @@
         </div>
 
 
-        <div class="hidden management-more text-white text-justify space-y-2 mt-3">
+        <div class="hidden management-more text-[#c3cbd9] text-justify space-y-2 mt-3">
 
             <p>
                 Antikythera offers interim and strategic leadership to organisations
@@ -95,7 +95,7 @@
             <img src="<?php echo BASE_URL; ?>assets/icons/technical.png" alt="technical-section" width="35" height="35">
         </div>
 
-        <div class="text-white space-y-2">
+        <div class="text-[#c3cbd9] space-y-2">
             <p>Our engineering services span automotive, aerospace, mobility, robotics, AI, and blockchain.</p>
             <p>From system architecture to cybersecurity, we combine traditional engineering rigour with next-generation
                 intelligence.</p>
@@ -104,7 +104,7 @@
         </div>
 
 
-        <div class="hidden technical-more text-white space-y-2 mt-3">
+        <div class="hidden technical-more text-[#c3cbd9] space-y-2 mt-3">
          <p>Antikythera delivers comprehensive engineering solutions across automotive, aerospace, mobility, robotics, AI, and blockchain sectors.</p>
 
             <p>We support clients from concept to production, covering system architecture, electrification, cybersecurity, and functional safety (ISO 26262).</p>
@@ -135,14 +135,14 @@
         </div>
 
 
-        <div class="text-white space-y-2">
+        <div class="text-[#c3cbd9] space-y-2">
             <p>We bridge technical understanding with financial insight, delivering expert due diligence and strategic
                 evaluations for investors in deep-technology sectors.</p>
             <p>Antikythera assesses feasibility, scalability, and IP strength to identify ventures with real
                 technological depth and sustainable market potential.</p>
         </div>
 
-        <div class="hidden investment-more text-white space-y-2 mt-3">
+        <div class="hidden investment-more text-[#c3cbd9] space-y-2 mt-3">
           <p>Antikythera combines technical expertise with financial acumen to evaluate high-potential opportunities in advanced technology sectors.</p>
 
         <p>We conduct in-depth technical due diligence, assessing feasibility, manufacturability, scalability, and IP strength.</p>
@@ -173,14 +173,14 @@
         </div>
 
 
-        <div class="text-white space-y-2">
+        <div class="text-[#c3cbd9] space-y-2">
             <p>We support companies in scaling from start-up to structured, globally capable organisations.</p>
             <p>Our experience in building international teams and governance frameworks ensures that growth is
                 efficient, resilient, and strategically aligned.</p>
         </div>
 
 
-        <div class="hidden growth-more text-white space-y-2 mt-3">
+        <div class="hidden growth-more text-[#c3cbd9] space-y-2 mt-3">
          <p>Antikythera supports companies in scaling from early-stage ventures to structured, globally capable organisations. </p>
 
          <p>We collaborate with founders and leadership teams to design effective organisational architectures, define governance frameworks, and implement automated processes to sustain long-term growth. </p>

@@ -41,10 +41,10 @@ $menu_cond = $is_home ? 'hidden' : 'lg:hidden';
 ?>
 
 <!-- Navbar -->
-<header class="w-full h-[110px] fixed top-0 z-50 py-4 flex justify-between items-center [background:var(--header-gradient)] shadow-xl px-6 md:px-16">
+<header class="w-full h-[110px] fixed top-0 z-50 py-4 flex justify-between items-center [background:var(--header-gradient)] shadow-xl px-6 md:pr-16 md:pl-8">
 
     <!-- Logo -->
-    <a href="index.php" class="flex items-center space-x-2">
+    <a href="index" class="flex items-center space-x-2">
         <img src="assets/logo/header_logo.png" alt="Logo" class="h-20">
     </a>
 
@@ -54,6 +54,6 @@ $menu_cond = $is_home ? 'hidden' : 'lg:hidden';
     </button>
 
     <!-- Desktop CTA -->
-    <a href="booking.php" class="hidden lg:block text-lg dev-btn">Book a Meeting</a>
+    <a href="booking" class="hidden lg:block text-lg dev-btn">Book a Meeting</a>
 
 </header>

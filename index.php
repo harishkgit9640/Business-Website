@@ -2,7 +2,7 @@
 
 <!-- hero section -->
 <section
-    class="hero_section pt-[8rem] lg:pt-[6rem] w-full h-screen flex justify-center items-start lg:items-center p-14 lg:p-10 [background:var(--bg-gradient)]">
+    class="hero_section pt-[3rem] lg:pt-[6rem] w-full h-screen flex justify-center items-center px-6 lg:p-10 [background:var(--bg-gradient)]">
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
 
@@ -30,7 +30,7 @@
 
                 <!-- Text -->
                 <div class="absolute inset-0 flex flex-col items-center justify-center text-white my_border">
-                    <a href="services.php" title="Services" class="text-2xl lg:text-5xl font-bold mb-3">
+                    <a href="services" title="Services" class="text-2xl lg:text-5xl font-bold mb-3">
                         AES - ANTIKYTHERA
                     </a>
                     <span

@@ -16,6 +16,7 @@ $time_line_array = [
 ];
 ?>
 
+
 <!-- SIDEBAR -->
 <div id="sidebar" class="hidden lg:block fixed top-0 left-0 w-[300px] h-screen pt-[150px] px-5
     bg-[var(--primary-color)] overflow-y-auto z-10">

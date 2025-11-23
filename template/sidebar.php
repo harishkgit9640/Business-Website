@@ -13,9 +13,9 @@
             <li>
                 <div data-toggle="collapse" data-target="#servicesList" aria-expanded="false"
                     aria-controls="servicesList"
-                    class="flex items-center justify-between min-w-60 cursor-pointer py-1.5 px-2.5 rounded-md align-middle transition-all duration-300 ease-in text-slate-300 hover:text-slate-100 hover:bg-[#c48832] nav_link <?php echo ($current_page == strtolower($key).'.php') ? 'active' : ''; ?>">
+                    class="flex items-center justify-between min-w-60 cursor-pointer py-1.5 px-2.5 rounded-md align-middle transition-all duration-300 ease-in text-slate-300 hover:text-slate-100 hover:bg-[#c48832] nav_link <?php echo ($current_page == strtolower($key)) ? 'active' : ''; ?>">
                     <!-- <span class="text-lg flex items-center">Services</span>  -->
-                      <a href="<?php echo strtolower($key).'.php'; ?>" class="text-lg grid place-items-center shrink-0 ">
+                      <a href="<?php echo strtolower($key); ?>" class="text-lg grid place-items-center shrink-0 ">
                     <?php echo $label; ?>
                 </a>
                     <span data-icon
@@ -40,7 +40,7 @@
                     ?>
                         <li
                             class="pl-10 flex items-center cursor-pointer py-1.5 px-2.5 rounded-md align-middle select-none font-sans transition-all duration-300 ease-in bg-transparent text-slate-300 hover:text-slate-100 hover:bg-[#c48832] sub_nav_link">
-                           <a href="services.php#<?php echo $page_url; ?>" class="text-lg grid place-items-center shrink-0"> <?php echo $sub_label; ?>
+                           <a href="services#<?php echo $page_url; ?>" class="text-lg grid place-items-center shrink-0"> <?php echo $sub_label; ?>
                             </a>
                         </li>
 
@@ -51,11 +51,11 @@
             </li>
             <?php } else {
                         $label = str_replace('_', ' ', ucfirst($main_menu));
-                        $page_url = BASE_URL . strtolower($key) . '.php';
+                        $page_url = BASE_URL . strtolower($key);
                         ?>
 
             <li
-                class="flex items-center py-1.5 px-2.5 rounded-md align-middle transition-all duration-300 ease-in aria-disabled:opacity-50 bg-transparent text-slate-300 hover:text-slate-100 hover:bg-[#c48832] nav_link <?php echo ($current_page == strtolower($key).'.php') ? 'active' : ''; ?> ">
+                class="flex items-center py-1.5 px-2.5 rounded-md align-middle transition-all duration-300 ease-in aria-disabled:opacity-50 bg-transparent text-slate-300 hover:text-slate-100 hover:bg-[#c48832] nav_link <?php echo ($current_page == strtolower($key)) ? 'active' : ''; ?> ">
                 <a href="<?php echo $page_url; ?>" class="text-lg grid place-items-center shrink-0 ">
                     <?php echo $label; ?>
                 </a>
