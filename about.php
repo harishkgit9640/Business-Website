@@ -40,9 +40,9 @@ $time_line_array = [
         <!-- TEXT BLOCK -->
         <div class="lg:col-span-2 mt-10" data-aos="fade-left">
             <h2 class="text-4xl font-semibold mb-2">VISHAL LALWANI</h2>
-            <p class="opacity-80 text-slate-300 tracking-widest text-sm font-[100] mb-6">CEO and Founder Antikythera Group</p>
+            <p class="text-slate-100 tracking-widest text-sm font-thin mb-6">CEO and Founder Antikythera Group</p>
 
-            <p class="leading-7 opacity-90 mb-4 text-justify">
+            <p class="leading-normal md:leading-7 font-normal text-slate-300 text-sm sm:text-base mb-4 text-justify">
                 An engineer turned commercial leader and multi-patent holder in the automotive sector, known for driving innovation across electrical engineering, electrification, and advanced ICE and hybrid powertrain development — from early concept through to full vehicle launch.
                 Driven by engineering excellence, strategic foresight, and commercial impact, Vishal continues to build, scale, and lead teams and technologies that move industries forward.
             </p>
@@ -60,8 +60,8 @@ $time_line_array = [
                     class="relative grid h-3 w-3 place-items-center rounded-full bg-slate-200 text-slate-800"></span>
             </div>
             <div class="-translate-y-1.5 pb-8">
-                <h2 class="text-xl font-bold text-[#c48832]"><?php echo $key; ?></h2>
-                <p class="mt-2 leading-[1.7] text-base text-slate-300 text-justify" ><?php echo $value; ?></p>
+                <h2 class="text-lg md:text-xl font-bold text-[#c48832]"><?php echo $key; ?></h2>
+                <p class="mt-2 leading-[1.7] text-sm md:text-base text-slate-300 text-justify" ><?php echo $value; ?></p>
             </div>
         </div>
         <?php } ?>

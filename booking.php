@@ -15,15 +15,19 @@
         Book a Meeting
     </h3>
 
-    <div class="w-full h-[750px] lg:h-[900px] rounded-lg overflow-hidden shadow-md">
-        <iframe 
-            src="https://outlook.office.com/book/AntikytheraGroup@NETORGFT19856432.onmicrosoft.com/?ismsaljsauthenabled"
-            width="100%"
-            height="100%"
-            scrolling="yes"
-            style="border:0;">
-        </iframe>
-    </div>
+<!-- Responsive Iframe Wrapper -->
+<div class="relative w-full overflow-hidden rounded-lg shadow-md"
+     style="padding-top: 130%;">
+
+    <iframe 
+        src="https://outlook.office.com/book/AntikytheraGroup@NETORGFT19856432.onmicrosoft.com/?ismsaljsauthenabled"
+        class="absolute top-0 left-0 w-full h-full"
+        style="border: 0;"
+        scrolling="yes">
+    </iframe>
+
+</div>
+
 
     
 </section>

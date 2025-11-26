@@ -12,32 +12,35 @@
             <div class="w-full h-full overflow-hidden relative">
                 <img src="assets/images/Cover.png" alt="hero image" class="w-full h-full object-cover">
 
-                <!-- Text -->
-                <div
-                    class="absolute inset-0 flex flex-col items-center justify-center text-slate-200 my_border left_border">
-                    <span class="text-4xl lg:text-7xl font-bold drop-shadow-lg">
-                        ANTIKYTHERA
-                    </span>
+                <div class="absolute inset-0 flex items-center justify-center text-slate-200 my_border left_border">
+                    <div class="left_content">
+                        <h1 class="text-4xl lg:text-6xl font-bold">
+                            ANTIKYTHERA
+                        </h1>
+                        <p class="text-xl lg:text-2xl mt-2">
+                            Stay tuned
+                        </p>
+                    </div>
                 </div>
+
             </div>
         </div>
 
 
         <!-- RIGHT CARD – LIGHT BLUE GRADIENT BORDER -->
-        <div class="border-2 border-[#0d64df] rounded-lg overflow-hidden aspect-video relative">
+        <div class="border-2 border-[#3b435b] rounded-lg overflow-hidden aspect-video relative">
 
-                <canvas id="canvas1"></canvas>
+            <canvas id="canvas1"></canvas>
 
-                <!-- Text -->
-                <div class="absolute inset-0 flex flex-col items-center justify-center text-white my_border">
-                    <a href="services" title="Services" class="text-2xl lg:text-5xl font-bold mb-3">
-                        AES - ANTIKYTHERA
-                    </a>
-                    <span
-                        class="text-2xl lg:text-5xl font-bold">
-                        ENGINEERING SERVICE
-                    </span>
-                </div>
+            <!-- Text -->
+            <a href="services" class="absolute inset-0 flex flex-col items-center justify-center text-white my_border">
+                <h1 title="Services" class="text-[8rem] lg:text-[10rem] xl:text-[12rem] leading-none font-bold">
+                    AES
+                </h1>
+                <p class="text-base lg:text-lg xl:text-xl">
+                    ANTIKYTHERA ENGINEERING SERVICE
+                </p>
+            </a>
         </div>
 
     </div>

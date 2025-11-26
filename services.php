@@ -13,10 +13,10 @@
 
     <!-- Heading -->
     <div class="container text-center mx-auto w-full lg:w-[85%] mb-16">
-        <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-5 text-white">
+        <h3 class="text-xl sm:text-3xl xl:text-5xl font-bold mb-5 text-white">
             Antikythera Engineering Services
         </h3>
-        <p class="text-[#c3cbd9] leading-relaxed">
+        <p class="text-[#c3cbd9] text-sm md:text-base leading-relaxed">
             Antikythera Engineering Services partners with companies at the forefront of technology
             and innovation — providing leadership, technical expertise, and strategic insight to help
             them scale intelligently, execute with precision, and lead with purpose.
@@ -34,7 +34,7 @@
                 height="35">
         </div>
 
-        <div class="text-[#c3cbd9] text-justify space-y-2">
+        <div class="text-[#c3cbd9] space-y-2">
 
             <p>
                 We provide interim and strategic leadership across technology-driven industries,
@@ -49,7 +49,7 @@
         </div>
 
 
-        <div class="hidden management-more text-[#c3cbd9] text-justify space-y-2 mt-3">
+        <div class="hidden management-more text-[#c3cbd9] space-y-2 mt-3">
 
             <p>
                 Antikythera offers interim and strategic leadership to organisations

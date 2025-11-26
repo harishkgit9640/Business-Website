@@ -39,7 +39,7 @@
                             $page_url = strtolower($value);
                     ?>
                         <li
-                            class="pl-10 flex items-center cursor-pointer py-1.5 px-2.5 rounded-md align-middle select-none font-sans transition-all duration-300 ease-in bg-transparent text-slate-300 hover:text-slate-100 hover:bg-[#c48832] sub_nav_link">
+                            class="pl-10 flex items-center cursor-pointer first:mt-3 py-1.5 px-2.5 rounded-md align-middle select-none font-sans transition-all duration-300 ease-in bg-transparent text-slate-300 hover:text-slate-100 hover:bg-[#c48832] sub_nav_link">
                            <a href="services#<?php echo $page_url; ?>" class="text-lg grid place-items-center shrink-0"> <?php echo $sub_label; ?>
                             </a>
                         </li>
