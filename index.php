@@ -12,13 +12,13 @@
             <div class="w-full h-full overflow-hidden relative">
                 <img src="assets/images/Cover.png" alt="hero image" class="w-full h-full object-cover">
 
-                <div class="absolute inset-0 flex items-center justify-center text-slate-200 my_border left_border">
+                <div class="absolute inset-0 flex items-center justify-center text-center text-slate-200 my_border left_border">
                     <div class="left_content">
-                        <h1 class="text-4xl lg:text-6xl font-bold">
+                        <h1 class="text-2xl lg:text-5xl xl:text-6xl font-bold">
                             ANTIKYTHERA
                         </h1>
-                        <p class="text-xl lg:text-2xl mt-2">
-                            Stay tuned
+                        <p class="text-base lg:text-lg xl:text-xl">
+                            STAY TUNED
                         </p>
                     </div>
                 </div>
@@ -34,13 +34,14 @@
 
             <!-- Text -->
             <a href="services" class="absolute inset-0 flex flex-col items-center justify-center text-white my_border">
-                <h1 title="Services" class="text-[8rem] lg:text-[10rem] xl:text-[12rem] leading-none font-bold">
+                <h1 class="text-2xl lg:text-5xl xl:text-6xl font-bold">
                     AES
                 </h1>
                 <p class="text-base lg:text-lg xl:text-xl">
-                    ANTIKYTHERA ENGINEERING SERVICE
+                    ANTIKYTHERA ENGINEERING SERVICES
                 </p>
             </a>
+            
         </div>
 
     </div>

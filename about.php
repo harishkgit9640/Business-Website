@@ -25,11 +25,11 @@ $time_line_array = [
 
 <!-- MAIN CONTENT -->
 <section class="ml-0 lg:ml-[300px] w-full lg:w-[calc(100%-300px)]
-    min-h-screen px-6 lg:px-20 pt-[10rem] pb-16
+    min-h-screen px-6 xl:px-20 pt-[10rem] pb-16
     [background:var(--bg-gradient)] text-white">
 
     <!-- ABOUT SECTION -->
-    <div class="pb-[5rem] grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
+    <div class="pb-[5rem] grid grid-cols-1 md:grid-cols-3 gap-4 lg:grid-cols-3 lg:gap-8">
 
         <!-- IMAGE BLOCK -->
         <div class="left_tab" data-aos="fade-right">
@@ -38,7 +38,7 @@ $time_line_array = [
         </div>
 
         <!-- TEXT BLOCK -->
-        <div class="lg:col-span-2 mt-10" data-aos="fade-left">
+        <div class="md:col-span-2 xl:mt-10" data-aos="fade-left">
             <h2 class="text-4xl font-semibold mb-2">VISHAL LALWANI</h2>
             <p class="text-slate-100 tracking-widest text-sm font-thin mb-6">CEO and Founder Antikythera Group</p>
 
@@ -69,31 +69,57 @@ $time_line_array = [
     </div>
 
 
-
-    <!-- Gallery Section -->
-<div class="pt-[5rem] w-full">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-        <!-- Image 1 -->
-        <div class="rounded-lg overflow-hidden aspect-video">
-            <img 
-                src="<?php echo BASE_URL; ?>assets/images/img_1.jpg" 
-                alt="Gallery image showing 5 cars"
-                class="w-full h-full object-cover"
-            >
-        </div>
-
-        <!-- Image 2 -->
-        <div class="rounded-lg overflow-hidden aspect-video">
-            <img 
-                src="<?php echo BASE_URL; ?>assets/images/img_2.jpg" 
-                alt="Gallery second image"
-                class="w-full h-full object-cover"
-            >
-        </div>
-
+<!-- Gallery Section -->
+<div class="pt-20 w-full">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="image_wrapper">
+    
+    <!-- Image 1 -->
+    <div class="rounded-lg overflow-hidden aspect-video group">
+      <img 
+        src="<?php echo BASE_URL; ?>assets/images/img_1.jpg"
+        alt="Gallery image showing 5 cars"
+        class="w-full h-full object-cover cursor-pointer transition duration-300 group-hover:opacity-70"
+        id="gallery-img"
+      >
     </div>
+
+    <!-- Image 2 -->
+    <div class="rounded-lg overflow-hidden aspect-video group">
+      <img 
+        src="<?php echo BASE_URL; ?>assets/images/img_2.jpg"
+        alt="Gallery second image"
+        class="w-full h-full object-cover cursor-pointer transition duration-300 group-hover:opacity-70"
+        id="gallery-img"
+      >
+    </div>
+
+  </div>
 </div>
+
+<!-- Modal -->
+<div 
+  id="image-viewer"
+  class="hidden fixed inset-0 z-[999] bg-black/90 flex items-center justify-center"
+>
+  <!-- Close button -->
+  <span 
+    class="absolute top-4 right-6 text-white text-4xl cursor-pointer hover:text-gray-400 transition"
+    id="modal-close"
+  >
+    &times;
+  </span>
+
+  <!-- Wrapper ensures perfect centering -->
+  <div class="relative flex items-center justify-center w-full h-full">
+    <img 
+      id="full-image"
+      class="max-w-[800px] w-[80%] max-h-[90%] object-cover rounded-lg animate-zoom"
+    >
+  </div>
+</div>
+
+
+
 
 
 
