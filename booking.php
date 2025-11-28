@@ -15,18 +15,18 @@
         Book a Meeting
     </h3>
 
-<!-- Responsive Iframe Wrapper -->
-<div class="relative w-full overflow-hidden rounded-lg shadow-md"
-     style="padding-top: 130%;">
+<!-- Full-Width Responsive Iframe Wrapper -->
+<div class="relative w-full overflow-hidden rounded-lg shadow-md">
 
     <iframe 
         src="https://outlook.office.com/book/AntikytheraGroup@NETORGFT19856432.onmicrosoft.com/?ismsaljsauthenabled"
-        class="absolute top-0 left-0 w-full h-full"
+        class="w-full h-[1200px] md:h-[900px] lg:h-[700px]"
         style="border: 0;"
         scrolling="yes">
     </iframe>
 
 </div>
+
 
 
     

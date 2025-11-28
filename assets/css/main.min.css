@@ -1,10 +1,18 @@
-@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap);
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Inter, sans-serif
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+[data-aos] {
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 :root {
@@ -70,4 +78,10 @@ body::-webkit-scrollbar-thumb:hover {
 
 .animate-zoom {
   animation: zoom 0.5s ease;
+}
+
+
+/* Style for Booking  */
+.yrX2N {
+ max-width: 100% !important;   
 }
