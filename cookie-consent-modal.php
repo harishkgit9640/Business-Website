@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100">
   <div class="fixed inset-0 flex items-center justify-center bg-black/50 p-4">
     <div class="bg-white w-full max-w-2xl rounded-lg shadow-lg p-6 relative overflow-y-auto max-h-[90vh]">
 
@@ -78,58 +70,3 @@
 
     </div>
   </div>
-  <script>
-    $(document).ready(function () {
-      const storageKey = 'TERMLY_COOKIE_CONSENT';
-      const modal = $('.fixed');
-
-      // Fade-in animation
-      modal.addClass('opacity-0');
-      setTimeout(() => modal.removeClass('opacity-0'), 50);
-
-      // Show only if no saved preferences
-      if (localStorage.getItem(storageKey)) {
-        modal.addClass('hidden');
-      }
-
-      // Close modal
-      $('button.absolute').on('click', function () {
-        modal.addClass('hidden');
-      });
-
-      const declineBtn = $('button').eq(0);
-      const allowBtn = $('button').eq(1);
-      const checkboxes = $('input[type="checkbox"]').not(':disabled');
-
-      // Load saved preferences
-      const savedPrefs = JSON.parse(localStorage.getItem(storageKey));
-      if (savedPrefs) {
-        checkboxes.each(function () {
-          const label = $(this).parent().text().trim();
-          $(this).prop('checked', savedPrefs[label] || false);
-        });
-      }
-
-      function savePreferences(allowAll = false) {
-        const prefs = {};
-        checkboxes.each(function () {
-          const label = $(this).parent().text().trim();
-          prefs[label] = allowAll ? true : $(this).is(':checked');
-        });
-        localStorage.setItem(storageKey, JSON.stringify(prefs));
-        modal.addClass('hidden');
-      }
-
-      declineBtn.on('click', function () {
-        checkboxes.prop('checked', false);
-        savePreferences(false);
-      });
-
-      allowBtn.on('click', function () {
-        checkboxes.prop('checked', true);
-        savePreferences(true);
-      });
-    });
-  </script>
-</body>
-</html>
