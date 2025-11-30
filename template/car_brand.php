@@ -6,7 +6,7 @@ $brands = [
     ['file' => 'bmw.svg', 'span' => '', 'class' => 'h-12 md:h-16'],
     ['file' => 'mercedes.svg', 'span' => '', 'class' => 'h-12 md:h-16'],
     ['file' => 'zf.svg', 'span' => '', 'class' => 'h-12 md:h-16'],
-    ['file' => 'cummins.jpg', 'span' => '', 'class' => 'h-12 md:h-16 lg:20'],
+    ['file' => 'cummins.svg', 'span' => '', 'class' => 'h-12 md:h-16 lg:20'],
     ['file' => 'continental.svg', 'span' => '', 'class' => 'h-12 md:h-24'],
     ['file' => 'siemens.svg', 'span' => 'col-span-2', 'class' => 'p-3 md:p-0 h-10'],
     ['file' => 'bosch.svg', 'span' => '', 'class' => 'h-12 md:h-24'],

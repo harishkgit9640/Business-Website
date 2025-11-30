@@ -26,6 +26,7 @@ html, body {
     --header-gradient: linear-gradient(85.89deg, #242e3d -5.2%, #282f39 46.02%, #1f242c 99.37%)
 }
 
+
 .nav_link.active,
 .sub_nav_link.active {
     background-color: var(--secondary-color);
@@ -84,4 +85,62 @@ body::-webkit-scrollbar-thumb:hover {
 /* Style for Booking  */
 .yrX2N {
  max-width: 100% !important;   
+}
+
+/* checkboxes style */
+
+/* Universal reset for custom checkbox */
+.cookieOpt {
+  -webkit-appearance: none;
+  appearance: none;
+  display: inline-block;
+  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  border: 2px solid #cbd5e1;
+  border-radius: 6px;
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+  transition: background-color .12s ease, border-color .12s ease, box-shadow .12s ease;
+  box-sizing: border-box;
+}
+
+.cookieOpt:checked {
+  background-color: #282f39;
+  border-color: #282f39;
+}
+
+.cookieOpt:checked::after {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 6px;
+  height: 11px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.cookieOpt:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(40,47,57,0.12);
+}
+
+.cookieOpt:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.cookie-row {
+  display: flex;
+  /* gap: 12px; */
+  align-items: start;
+}
+
+.cookie-text {
+  min-height: 48px;
+  padding-left: 15px;
 }

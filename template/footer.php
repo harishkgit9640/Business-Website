@@ -1,4 +1,4 @@
-<footer class="[background:var(--header-gradient)] p-4 text-slate-300 text-sm md:text-base text-center font-normal w-full fixed bottom-0">
+<footer class="bg-[#282f39] p-4 text-slate-300 text-sm md:text-base text-center font-normal w-full fixed bottom-0">
     <p>Copyright &copy; Antikythera Group <?php echo date('Y'); ?> All rights reserved.</p>
 </footer>
 
