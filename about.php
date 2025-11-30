@@ -4,16 +4,19 @@
 $time_line_array = [
 'Industry Experience' => 'He has held key engineering and leadership roles across the industry, including at Cummins, Ford, and INEOS Automotive. At Ford, Vishal led multiple global engine programmes and oversaw the end-to-end delivery of advanced powertrain systems. He played a central role in strategic planning for both vehicle and engine portfolios, shaping long-term product roadmaps, aligning cross-functional teams, and guiding the integration of emerging technologies into future vehicle platforms.',
 
-'Impact at INEOS Automotive' => 'Vishal’s career took a significant leap at INEOS Automotive, where he served as a strategic partner to Founder Sir Jim Ratcliffe. He contributed fundamentally to INEOS’s evolution into a multi-vehicle organisation and played a pivotal role in the successful global launch of the Grenadier.',
+'Impact at INEOS Automotive' => 'During his time at INEOS Automotive, Vishal drove both organisational and technical progress as the company scaled from a start-up into a multi-vehicle OEM. He oversaw key areas of electrical/electronics and powertrain engineering, leading the integration of the BMW powertrain and the development of the complete vehicle electronics architecture, including ADAS. He also created the HMI and UX/UI platforms entirely in-house and established company-wide processes to support scalable engineering and cross-functional alignment. His contributions played an essential role in bringing the Grenadier from a clean-sheet concept to a successful global launch.',
+
+'Patents' => 'Vishal also holds multiple patents that are implemented across both Ford and INEOS vehicles, reflecting his depth in applied engineering and automotive innovation. These patents span globally and regionally—granted in key territories such as the EU, USA, and China—underscoring the robustness and international relevance of his work. His inventions include advanced smart-suspension design methodologies that enhance vehicle stability, comfort, and dynamic responsiveness, as well as sophisticated computing algorithms engineered for multi-core processors, optimising real-time performance, control strategies, and system reliability. Together, these patents highlight his ability to bridge mechanical systems, embedded electronics, and software intelligence to create solutions that scale from concept to production across multiple OEM platforms.',
+
+'Innovation & Future-Ready Execution' => 'Most recently, he led the integration of AI and agentic automation models into the development of the next-generation Grenadier, reducing software cycle times and increasing overall development efficiency.',
 
 'Global Perspective & Cross-Cultural Leadership' => 'He brings a commercially focused mindset and strong cross-cultural leadership experience, with the ability to scale engineering programmes and business functions across continents. A native speaker of German, English, and Hindi, Vishal was educated in Germany and the UK while remaining closely rooted in India. His international career spans China, the USA, and Europe, covering testing, supplier development, and long-term strategic partnerships.',
 
 'Approach to Leadership' => 'Recognised for uniting teams through shared objectives, Vishal thrives in high-pressure, high-stakes environments — a discipline reinforced by his military background.',
 
-'Innovation & Future-Ready Execution' => 'Most recently, he led the integration of AI and agentic automation models into the development of the next-generation Grenadier, reducing software cycle times and increasing overall development efficiency.',
-
 'Vision & Driving Philosophy' => 'Driven by engineering excellence, strategic foresight, and commercial impact, Vishal continues to build, scale, and lead teams and technologies that move industries forward.',
 ];
+
 ?>
 
 

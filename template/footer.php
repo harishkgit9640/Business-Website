@@ -2,6 +2,8 @@
     <p>Copyright &copy; Antikythera Group <?php echo date('Y'); ?> All rights reserved.</p>
 </footer>
 
+<?php include 'cookie-consent-modal.php'; ?>
+
 <!-- AOS -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 

@@ -36,6 +36,13 @@
 // Current page detection
 $current = basename(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
 
+// cookie variables
+if (isset($_COOKIE['TERMLY_COOKIE_CONSENT'])) {
+    $consent = json_decode($_COOKIE['TERMLY_COOKIE_CONSENT'], true);
+    define('COOKIE_CONSENT',$consent);
+}
+
+
 // Homepage check
 $is_home = in_array($current, ['', 'index', 'index.php']);
 
