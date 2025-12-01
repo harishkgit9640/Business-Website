@@ -30,9 +30,10 @@
 
 
         <!-- RIGHT CARD – LIGHT BLUE GRADIENT BORDER -->
-        <div class="border-2 border-[#3b435b] rounded-lg overflow-hidden aspect-video relative">
+        <div id="particle-box" class="border-2 border-[#3b435b] rounded-lg overflow-hidden aspect-video relative">
 
-            <canvas id="canvas1"></canvas>
+        <!-- partical effect -->
+            <canvas id="canvas1"></canvas> 
 
             <!-- Text -->
             <a href="services" class="absolute inset-0 flex flex-col items-center justify-center text-white my_border">

@@ -35,15 +35,15 @@ $time_line_array = [
     <div class="pb-[5rem] grid grid-cols-1 md:grid-cols-3 gap-4 lg:grid-cols-3 lg:gap-8">
 
         <!-- IMAGE BLOCK -->
-        <div class="left_tab sm:mt-4 lg:mt-0" data-aos="fade-right">
+        <div class="left_tab" data-aos="fade-right">
             <img src="assets/images/profile_pic.png" alt="Vishal Lalwani Profile Picture."
                 class="w-full lg:w-[320px] rounded-lg object-cover">
         </div>
 
         <!-- TEXT BLOCK -->
         <div class="md:col-span-2 xl:mt-10" data-aos="fade-left">
-            <h2 class="text-4xl font-semibold mb-2">VISHAL LALWANI</h2>
-            <p class="text-slate-100 tracking-widest text-sm font-thin mb-4 lg:mb-6">CEO and Founder Antikythera Group</p>
+            <h2 class="text-3xl lg:text-4xl font-semibold lg:mb-2">VISHAL LALWANI</h2>
+            <p class="text-slate-100 tracking-widest text-sm font-thin mb-2 lg:mb-6">CEO and Founder Antikythera Group</p>
 
             <p class="leading-normal lg:leading-7 font-normal text-slate-300 text-sm sm:text-base mb-4 text-justify">
                 An engineer turned commercial leader and multi-patent holder in the automotive sector, known for driving innovation across electrical engineering, electrification, and advanced ICE and hybrid powertrain development — from early concept through to full vehicle launch.
