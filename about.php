@@ -12,7 +12,7 @@ $time_line_array = [
 
 'Global Perspective & Cross-Cultural Leadership' => 'He brings a commercially focused mindset and strong cross-cultural leadership experience, with the ability to scale engineering programmes and business functions across continents. A native speaker of German, English, and Hindi, Vishal was educated in Germany and the UK while remaining closely rooted in India. His international career spans China, the USA, and Europe, covering testing, supplier development, and long-term strategic partnerships.',
 
-'Approach to Leadership' => 'Recognised for uniting teams through shared objectives, Vishal thrives in high-pressure, high-stakes environments — a discipline reinforced by his military background.',
+'Approach to Leadership' => 'Recognised for uniting teams through shared objectives, Vishal thrives in high-pressure, high-stakes environments - a discipline reinforced by his military background.',
 
 'Vision & Driving Philosophy' => 'Driven by engineering excellence, strategic foresight, and commercial impact, Vishal continues to build, scale, and lead teams and technologies that move industries forward.',
 ];

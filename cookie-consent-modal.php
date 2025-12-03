@@ -14,10 +14,11 @@
                 below to learn more about their purposes. You may choose which types of cookies to allow and can change
                 your preferences at any time. The choices you make regarding the Purposes and Vendors listed in this
                 notice are saved in local storage under the key TERMLY_COOKIE_CONSENT for a maximum duration of 12
-                months. Remember that disabling cookies may affect your experience on the website. You can learn more
-                about how we use cookies by visiting our <a href="#"
+                months. Remember that disabling cookies may affect your experience on the website.
+                
+                <!-- You can learn more about how we use cookies by visiting our <a href="#"
                     class="text-[#282f39] font-semibold hover:underline">Cookie Policy</a> and <a href="#"
-                    class="text-[#282f39] font-semibold hover:underline">Privacy Policy</a>.
+                    class="text-[#282f39] font-semibold hover:underline">Privacy Policy</a>. -->
             </p>
 
 

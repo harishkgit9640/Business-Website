@@ -42,12 +42,4 @@ define('MENU_ARRAY', [
     'about'    => 'About Antikythera',
 ]);
 
-
-// ---------------------------------------------
-// Brands Worked With
-// ---------------------------------------------
-define('CARS', [
-    'ineos', 'ford', 'bmw', 'mercedes', 'zf', 
-    'bosch', 'cummins', 'siemens', 'continental'
-]);
 ?>
